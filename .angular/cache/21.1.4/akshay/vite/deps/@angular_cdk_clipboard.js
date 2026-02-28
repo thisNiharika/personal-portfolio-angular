@@ -15,8 +15,8 @@ import {
   ɵɵdefineInjector,
   ɵɵdefineNgModule,
   ɵɵlistener
-} from "./chunk-RDVUHGJE.js";
-import "./chunk-B2KI3AIV.js";
+} from "./chunk-E4YBBZQR.js";
+import "./chunk-VJWWLC6R.js";
 import "./chunk-I24DCHNK.js";
 
 // node_modules/@angular/cdk/fesm2022/clipboard.mjs

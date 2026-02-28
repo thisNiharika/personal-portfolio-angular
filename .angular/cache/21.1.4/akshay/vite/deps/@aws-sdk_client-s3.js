@@ -2,12 +2,12 @@ import {
   fromUtf8,
   toUint8Array,
   toUtf8
-} from "./chunk-6H5VUVKJ.js";
+} from "./chunk-O3UF2HC4.js";
 import {
   __awaiter,
   __generator,
   __values
-} from "./chunk-B2KI3AIV.js";
+} from "./chunk-VJWWLC6R.js";
 import {
   __async,
   __asyncGenerator,
@@ -2305,7 +2305,7 @@ var HttpProtocol = class extends SerdeContext {
   }
   loadEventStreamCapability() {
     return __async(this, null, function* () {
-      const { EventStreamSerde } = yield import("./event-streams-A2CCFM6E.js");
+      const { EventStreamSerde } = yield import("./event-streams-FINZUCXI.js");
       return new EventStreamSerde({
         marshaller: this.getEventStreamMarshaller(),
         serializer: this.serializer,
