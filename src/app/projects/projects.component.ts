@@ -109,6 +109,27 @@ export class ProjectsComponent {
 
       ]
     },
+      {
+      name: "Expense Tracker",
+      description: "Pulse Finance — a minimal, fintech-style personal expense dashboard",
+      image: "assets/img/expence.png",
+      github: "https://github.com/thisNiharika/ExpenseTracker",
+      view: "https://expense-tracker-dfzpxgoh0-thisniharikas-projects.vercel.app/",
+      status: false,
+      date: "February - 2026",
+      demo: false,
+      tech: [
+        {
+          name: "HTML",
+          image: "assets/img/html5.svg",
+        },
+        {
+          name: "CSS",
+          image: "assets/img/css3.svg",
+        },
+
+      ]
+    },
    
   ]
 }
