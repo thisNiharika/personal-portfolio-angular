@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "akshay": {
+    "niharika-finance": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,12 +13,10 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "outputPath": "dist/akshay",
+            "outputPath": "dist/niharika-finance",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
@@ -59,7 +57,7 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true,
+              "sourceMap": true
             }
           },
           "defaultConfiguration": "production"
@@ -71,10 +69,10 @@
           },
           "configurations": {
             "production": {
-              "buildTarget": "akshay:build:production"
+              "buildTarget": "niharika-finance:build:production"
             },
             "development": {
-              "buildTarget": "akshay:build:development"
+              "buildTarget": "niharika-finance:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -104,35 +102,6 @@
           }
         }
       }
-    }
-  },
-  "cli": {
-    "analytics": "b819cfbe-0224-4852-834b-5f1dab32486f"
-  },
-  "schematics": {
-    "@schematics/angular:component": {
-      "type": "component"
-    },
-    "@schematics/angular:directive": {
-      "type": "directive"
-    },
-    "@schematics/angular:service": {
-      "type": "service"
-    },
-    "@schematics/angular:guard": {
-      "typeSeparator": "."
-    },
-    "@schematics/angular:interceptor": {
-      "typeSeparator": "."
-    },
-    "@schematics/angular:module": {
-      "typeSeparator": "."
-    },
-    "@schematics/angular:pipe": {
-      "typeSeparator": "."
-    },
-    "@schematics/angular:resolver": {
-      "typeSeparator": "."
     }
   }
 }
