@@ -1,4 +1,4 @@
-import "./chunk-BCRBVSHK.js";
+import "./chunk-I24DCHNK.js";
 
 // node_modules/bowser/src/constants.js
 var BROWSER_ALIASES_MAP = {
@@ -2809,4 +2809,4 @@ var bowser_default = Bowser;
 export {
   bowser_default as default
 };
-//# sourceMappingURL=bowser-QR76BCA5.js.map
+//# sourceMappingURL=bowser-WAC4DS55.js.map

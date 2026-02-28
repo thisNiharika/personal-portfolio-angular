@@ -18,7 +18,7 @@ import {
   __spreadValues,
   __superGet,
   __yieldStar
-} from "./chunk-BCRBVSHK.js";
+} from "./chunk-I24DCHNK.js";
 
 // node_modules/@smithy/protocol-http/dist-es/extensions/httpExtensionConfiguration.js
 var getHttpHandlerExtensionConfiguration = (runtimeConfig) => {
@@ -2305,7 +2305,7 @@ var HttpProtocol = class extends SerdeContext {
   }
   loadEventStreamCapability() {
     return __async(this, null, function* () {
-      const { EventStreamSerde } = yield import("./event-streams-YIZKTJIP.js");
+      const { EventStreamSerde } = yield import("./event-streams-A2CCFM6E.js");
       return new EventStreamSerde({
         marshaller: this.getEventStreamMarshaller(),
         serializer: this.serializer,

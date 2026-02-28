@@ -8,7 +8,7 @@ import {
   __await,
   __forAwait,
   __spreadValues
-} from "./chunk-BCRBVSHK.js";
+} from "./chunk-I24DCHNK.js";
 
 // node_modules/@smithy/core/dist-es/submodules/event-streams/EventStreamSerde.js
 var EventStreamSerde = class {
@@ -264,4 +264,4 @@ var EventStreamSerde = class {
 export {
   EventStreamSerde
 };
-//# sourceMappingURL=event-streams-YIZKTJIP.js.map
+//# sourceMappingURL=event-streams-A2CCFM6E.js.map

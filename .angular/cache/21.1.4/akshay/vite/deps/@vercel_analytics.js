@@ -1,7 +1,7 @@
 import {
   __objRest,
   __restKey
-} from "./chunk-BCRBVSHK.js";
+} from "./chunk-I24DCHNK.js";
 
 // node_modules/@vercel/analytics/dist/index.mjs
 var name = "@vercel/analytics";

@@ -6,7 +6,7 @@ import {
   __async,
   __spreadValues,
   __superGet
-} from "./chunk-BCRBVSHK.js";
+} from "./chunk-I24DCHNK.js";
 
 // node_modules/@supabase/functions-js/dist/module/helper.js
 var resolveFetch = (customFetch) => {

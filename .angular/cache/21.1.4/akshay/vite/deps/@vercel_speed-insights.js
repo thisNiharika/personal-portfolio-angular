@@ -1,4 +1,4 @@
-import "./chunk-BCRBVSHK.js";
+import "./chunk-I24DCHNK.js";
 
 // node_modules/@vercel/speed-insights/dist/index.mjs
 var name = "@vercel/speed-insights";

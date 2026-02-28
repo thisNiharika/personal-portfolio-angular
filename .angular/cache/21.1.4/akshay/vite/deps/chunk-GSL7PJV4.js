@@ -5,7 +5,7 @@ import {
   EventManager,
   EventManagerPlugin,
   SharedStylesHost
-} from "./chunk-WYK5ZX4E.js";
+} from "./chunk-HN3DFQ3Y.js";
 import {
   CommonModule,
   DomAdapter,
@@ -15,7 +15,7 @@ import {
   getDOM,
   parseCookieValue,
   setRootDomAdapter
-} from "./chunk-SQYFXEHU.js";
+} from "./chunk-MX6F3PBJ.js";
 import {
   APP_BOOTSTRAP_LISTENER,
   ApplicationModule,
@@ -34,6 +34,7 @@ import {
   Injector,
   NgModule,
   NgZone,
+  Observable,
   Optional,
   PLATFORM_ID,
   PLATFORM_INITIALIZER,
@@ -60,8 +61,11 @@ import {
   bypassSanitizationTrustStyle,
   bypassSanitizationTrustUrl,
   computed,
+  concatMap,
   createPlatformFactory,
   encapsulateResourceError,
+  filter,
+  finalize,
   formatRuntimeError,
   forwardRef,
   inject,
@@ -69,6 +73,8 @@ import {
   linkedSignal,
   makeEnvironmentProviders,
   makeStateKey,
+  map,
+  of,
   performanceMarkFeature,
   platformCore,
   provideStabilityDebugging,
@@ -76,6 +82,7 @@ import {
   setClassMetadata,
   setDocument,
   signal,
+  switchMap,
   truncateMiddle,
   unwrapSafeValue,
   withDomHydration,
@@ -86,22 +93,13 @@ import {
   ɵɵdefineInjector,
   ɵɵdefineNgModule,
   ɵɵinject
-} from "./chunk-U546ABB5.js";
-import {
-  Observable,
-  concatMap,
-  filter,
-  finalize,
-  map,
-  of,
-  switchMap
-} from "./chunk-U5BGXTXY.js";
+} from "./chunk-RDVUHGJE.js";
 import {
   __async,
   __objRest,
   __spreadProps,
   __spreadValues
-} from "./chunk-BCRBVSHK.js";
+} from "./chunk-I24DCHNK.js";
 
 // node_modules/@angular/platform-browser/fesm2022/_browser-chunk.mjs
 var BrowserDomAdapter = class _BrowserDomAdapter extends DomAdapter {
@@ -3381,4 +3379,4 @@ export {
   provideClientHydration,
   VERSION
 };
-//# sourceMappingURL=chunk-RGSYZEDR.js.map
+//# sourceMappingURL=chunk-GSL7PJV4.js.map
