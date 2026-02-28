@@ -24,9 +24,12 @@ export class ContactMeComponent {
     message: ''
   };
 
-  openContactForm() {
-    this.showContactForm = true;
-  }
+openContactForm() {
+  window.open(
+    'https://docs.google.com/forms/d/e/1FAIpQLSf_E-DZ7gVRag2ScyQLehCpXMKODnwy5rCg4uwJhJVLtjP8LQ/viewform?usp=publish-editor',
+    '_blank'
+  );
+}
 
   closeContactForm() {
     this.showContactForm = false;
