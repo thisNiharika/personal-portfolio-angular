@@ -1,14 +1,12 @@
 {
   "name": "niharika",
   "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "prebuild": "node ./scripts/set-env.js",
-    "build": "npx ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
-  },
+ "scripts": {
+  "start": "ng serve",
+  "build": "npx ng build",
+  "watch": "ng build --watch",
+  "test": "ng test"
+},
   "private": true,
   "dependencies": {
     "@angular/animations": "^21.1.4",
