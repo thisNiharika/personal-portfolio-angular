@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+.font-playwrite {
+    font-family: 'Playwrite HR Lijeva', cursive;
+}
+
+.font-raleway {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/* Custom animation for image swap */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+
+.btn-text{
+max-width:0;
+opacity: 0;
+/* display: none; */
+overflow:hidden;
+white-space:nowrap;
+transition:all .4s ease;
+}
+
+.btn:hover .btn-text{
+max-width:120px;
+opacity:1;
+/* display: block; */
+margin-left:6px;
+}

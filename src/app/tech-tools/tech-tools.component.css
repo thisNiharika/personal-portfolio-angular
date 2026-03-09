@@ -24,3 +24,23 @@
 .roboto-mono-700 {
     font-weight: 700;
 }
+
+.btn-text{
+max-width:0;
+opacity: 0;
+/* display: none; */
+overflow:hidden;
+white-space:nowrap;
+transition:all .4s ease;
+}
+
+.btn:hover .btn-text{
+max-width:120px;
+opacity:1;
+/* display: block; */
+margin-left:6px;
+}
+
+.generator{
+    z-index: 999;
+}
