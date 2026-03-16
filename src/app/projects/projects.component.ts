@@ -12,7 +12,7 @@ export class ProjectsComponent {
   projects: Array<any> = [
     {
       name: "Portfolio",
-      description: "A personal portfolio website designed to display my development skills and projects. This highlights my proficiency in Angular, and more.",
+      description: "A personal portfolio website designed to display my development skills and projects.",
       image: "assets/img/portfolio.png",
       github: "https://github.com/thisNiharika",
       view: "#",
@@ -41,7 +41,7 @@ export class ProjectsComponent {
     },
     {
       name: "UI Play",
-      description: "✨ Neumorphism shadows 🎨 Gradient combinations 📦 90+ Box shadow presets 🎬 CSS animations 🖼 Image filters (blur, hue, contrast, brightness) 🔤 Live typography editor 🟦 Border & radius generator Everything updates in real time — and you can copy clean CSS instantly.",
+      description: "Live CSS tools: shadows, gradients, typography",
       image: "assets/img/uiplay.png",
       github: "https://github.com/thisNiharika/UIPlay",
       view: "https://thisniharika.github.io/UIPlay/",
@@ -62,7 +62,7 @@ export class ProjectsComponent {
     },
     {
       name: "100 Days Ui_Camp",
-      description: "Unlock comprehensive efficiency and growth potential. Transform your operations today to boost workforce engagement and productivity",
+      description: "Transform your operations today to boost workforce productivity",
       image: "assets/img/100.png",
       github: "https://github.com/thisNiharika/100daysUiCamp",
       view: "https://thisniharika.github.io/100daysUiCamp/",
@@ -82,7 +82,7 @@ export class ProjectsComponent {
     },
     {
       name: "QR Genrator",
-      description: "A real-time, fully customizable QR generator: Live updates (no generate button needed), Full color control (HEX + picker), Drag & drop logo support, Logo preview + remove option, Adjustable logo size and lot more...",
+      description: "Live QR generator with colors, logo & preview",
       image: "assets/img/hinez.png",
       github: "https://github.com/thisNiharika/QRGenerator",
       view: "https://qr-generator-xi-snowy.vercel.app/",
@@ -111,7 +111,7 @@ export class ProjectsComponent {
     },
       {
       name: "Expense Tracker",
-      description: "Pulse Finance — a minimal, fintech-style personal expense dashboard",
+      description: "A minimal, fintech-style personal expense dashboard",
       image: "assets/img/expence.png",
       github: "https://github.com/thisNiharika/ExpenseTracker",
       view: "https://expense-tracker-dfzpxgoh0-thisniharikas-projects.vercel.app/",
