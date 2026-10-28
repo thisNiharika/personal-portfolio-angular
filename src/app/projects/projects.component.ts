@@ -114,7 +114,7 @@ export class ProjectsComponent {
       description: "A minimal, fintech-style personal expense dashboard",
       image: "assets/img/expence.png",
       github: "https://github.com/thisNiharika/ExpenseTracker",
-      view: "https://expense-tracker-dfzpxgoh0-thisniharikas-projects.vercel.app/",
+      view: "https://expense-tracker-iota-taupe.vercel.app/",
       status: false,
       date: "February - 2026",
       demo: false,
