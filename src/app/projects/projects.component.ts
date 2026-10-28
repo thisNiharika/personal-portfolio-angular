@@ -130,6 +130,31 @@ export class ProjectsComponent {
 
       ]
     },
+
+    {
+  name: "MS Tourist",
+  description: "A modern tourism website to make invoice for your business.",
+  image: "assets/img/ms-tourist.png",
+  github: "https://github.com/thisNiharika/ms-tourist-invoice",
+  view: "https://ms-tourist-invoice.vercel.app/",
+  status: false,
+  date: "October - 2026",
+  demo: false,
+  tech: [
+    {
+      name: "HTML",
+      image: "assets/img/html5.svg",
+    },
+    {
+      name: "CSS",
+      image: "assets/img/css3.svg",
+    },
+    {
+      name: "JavaScript",
+      image: "assets/img/javascript.svg",
+    },
+  ],
+},
    
   ]
 }
